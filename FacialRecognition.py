@@ -1,7 +1,6 @@
 import numpy as np
 
 '''
-Samuel Ironkwe
 
 A simple facial recognition algorithm. The algorithm crops and increases the contrast
 of the images before calculation.
