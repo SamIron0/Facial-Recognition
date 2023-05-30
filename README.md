@@ -1,2 +1,9 @@
-A simple facial rcognition algorithm using the eigenfaces method.
-To run, execute the command - "python FacialRecognition.py"
+
+### IDEA 
+The algorithm reads in pre-processed PGM image files from the `/library` folder, a simple gray-scale image format and utilizes eigenvalues, eigenvectors, and vector projection to compute the weights and distances between input images and images in `/duplicate` folder. The algorithm attempts to match the same individuals appearing in both libraries.
+
+### IMPLEMENTATION
+I use python and numpy in my implementation, to represent the face image as a matrix and mathematical operations are used to isolate the features that distinguish each face. In particular, the eigenvalues and eigenvectors of this matrix are calculated and used to identify the significant features of each image. This process is known as eigenface analysis.
+
+### PERFORMANCE
+Overall, the use of eigenvalues, eigenvectors, and vector projection allows the facial recognition algorithm to analyze and identify the specific features that distinguish between different face images, and use this information to accurately match input images to their closest matches in the library. The algorithm initally had a hit rate of 
